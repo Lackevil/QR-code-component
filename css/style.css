@@ -1,0 +1,86 @@
+/* ----------- Fonts ----------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+/* ----------- Fonts ----------- */
+
+/* ----------- Reset CSS ----------- */
+
+@import url(reset.css);
+
+/* ----------- Reset CSS ----------- */
+
+/* ----------- Variables ----------- */
+
+:root {
+  --slate-900: #1f314f;
+  --slate-500: #68778d;
+  --slate-300: #d5e1ef;
+}
+
+/* ----------- Variables ----------- */
+
+/* ----------- General ----------- */
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: var(--slate-300);
+  color: var(--slate-500);
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 140%;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+/* ----------- General ----------- */
+
+/* ----------- Main ----------- */
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+/* ----------- Main ----------- */
+
+/* ----------- Card ----------- */
+
+.card {
+  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 2rem;
+  background: #ffffff;
+  padding: 1.6rem;
+  max-width: 32rem;
+}
+
+.card__qr-img {
+  display: block;
+  margin-bottom: 0.8rem;
+  border-radius: 1rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.card__content {
+  padding: 1.6rem;
+  text-align: center;
+}
+
+.card__title {
+  margin-bottom: 1.6rem;
+  color: var(--slate-900);
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 120%;
+}
+
+/* .card__description {
+} */
+
+/* ----------- Card ----------- */
